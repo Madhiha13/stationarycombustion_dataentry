@@ -1,13 +1,50 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@600&display=swap");
+body ,html{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  line-height: normal;
+  overflow: hidden;
 }
+:root {
+  /* fonts */
+  --drop-menu-menu: Poppins;
+  --font-sarabun: Sarabun;
+  --font-inter: Inter;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* font sizes */
+  --font-size-17xl: 36px;
+  --font-size-3xs: 10px;
+  --font-size-smi: 13px;
+  --drop-menu-menu-size: 12px;
+  --font-size-9xl: 28px;
+  --font-size-sm: 14px;
+  --font-size-2xs: 11px;
+
+  /* Colors */
+  --white: #fff;
+  --color-forestgreen-100: #448e1f;
+  --color-forestgreen-200: #438d21;
+  --black: #313144;
+  --color-darkslategray-100: #014762;
+  --color-gainsboro: #d9d9d9;
+  --color-deepskyblue: #1bb6f1;
+  --blues-gray2: #b8bbc2;
+  --color-silver-100: #bbb;
+  --color-seagreen-100: #017846;
+  --color-gray: rgba(0, 0, 0, 0.5);
+  --color-lightgray: #cfcfcf;
+
+  /* Paddings */
+  --padding-2xs: 11px;
+  --padding-5xl: 24px;
+  --padding-lg: 18px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-7xl: 26px;
+  --br-5xs: 8px;
+  --br-11xl-5: 30.5px;
+  --br-6xs: 7px;
+  --br-2xs: 11px;
 }
